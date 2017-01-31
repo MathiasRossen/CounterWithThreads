@@ -7,6 +7,7 @@ using System.Threading;
 
 namespace CounterWithThreads
 {
+    //
     class Program
     {
         static object locker = new object();
@@ -44,6 +45,7 @@ namespace CounterWithThreads
             secondThread.Start();
 
             Console.Read();
+
         }
     }
 }
